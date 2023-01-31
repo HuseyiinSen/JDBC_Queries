@@ -50,10 +50,27 @@ public class jdbc_query_01_1 {
         while(data2.next()){
             System.out.println(data2.getInt("id") + " " +
                     data2.getString("isim"));
-        }git commit -m "first commit"
-        git branch -M main
-        git remote add origin https://github.com/senhuseyin/JDBC_Query.git
-        git push -u origin main
+        }
 
+             /*
+            A) CREATE TABLE, DROP TABLE, ALTER TABLE gibi DDL ifadeleri icin sonuc kümesi (ResultSet)
+               dondurmeyen metotlar kullanilmalidir. Bunun icin JDBC'de 2 alternatif bulunmaktadir.
+                1) execute() metodu
+                2) executeUpdate() metodu.
+
+            B) - execute() metodu her tur SQL ifadesiyle kullanibilen genel bir komuttur.
+               - execute(), Boolean bir deger dondurur. DDL islemlerinde false dondururken,
+                 DML islemlerinde true deger dondurur.
+               - Ozellikle, hangi tip SQL ifadesine hangi metodun uygun olduğunun bilinemediği
+                 durumlarda tercih edilmektedir.
+
+            C) - executeUpdate() metodu ise INSERT, Update gibi DML islemlerinde yaygin kullanilir.
+               - bu islemlerde islemden etkilenen satir sayisini dondurur.
+               - Ayrıca, DDL islemlerinde de kullanilabilir ve bu islemlerde 0 dondurur.
+                */
+        con.close();
+        st.close();
+        data.close();
+        data2.close();
     }
 }
