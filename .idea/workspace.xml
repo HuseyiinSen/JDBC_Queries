@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f2433c-083d-40cc-824c-e3e9c5b952f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC02EXECUTE_UPDATE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dersJDBC01_Query01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc_query_01_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc_query_01_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dersJDBC02_Query01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dersJDBC02_Query01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dersJDBC02_execute_executeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dersJDBC02_execute_executeUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2L3f394i1Y7AyV7D3Kj21lOmJAp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JDBC02EXECUTE_UPDATE">
+  <component name="RunManager" selected="Application.test">
     <configuration name="JDBC02EXECUTE_UPDATE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC02EXECUTE_UPDATE" />
       <module name="JDBCT108" />
@@ -59,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dersJDBC02_Query01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dersJDBC02_Query01" />
+      <module name="JDBCT108" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jdbc_query_01_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc_query_01_1" />
       <module name="JDBCT108" />
@@ -66,8 +80,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JDBCT108" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.dersJDBC02_Query01" />
         <item itemvalue="Application.JDBC02EXECUTE_UPDATE" />
         <item itemvalue="Application.jdbc_query_01_1" />
         <item itemvalue="Application.JDBC_QUERY01" />

@@ -52,10 +52,10 @@ public class dersJDBC02_Query01 {
 
         ResultSet data2 = st.executeQuery(selectQuery3);
 
-        // while(data2.next()){
-        //     System.out.println(data2.getInt("id") + " " +
-        //             data2.getString("isim"));
-        // }
+        //while(data2.next()){
+           //  System.out.println(data2.getInt("id") + " " +
+             //        data2.getString("isim"));
+         //}
 
         while(data2.next()){
             System.out.println(data2.getString(1) + " " +

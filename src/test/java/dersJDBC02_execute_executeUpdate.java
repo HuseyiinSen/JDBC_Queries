@@ -8,7 +8,9 @@ public class dersJDBC02_execute_executeUpdate {
  	A) CREATE TABLE, DROP TABLE, ALTER TABLE gibi DDL ifadeleri icin sonuc kümesi (ResultSet)
  	   dondurmeyen metotlar kullanilmalidir. Bunun icin JDBC'de 2 alternatif bulunmaktadir.
  	    1) execute() metodu - boolean dondurur.
+
  	    2) executeUpdate() metodu - int deger dondurur.
+
  	B) - execute() metodu her tur SQL ifadesiyle kullanilabilen genel bir komuttur.
  	   - execute(), Boolean bir deger dondurur. DDL islemlerinde false dondururken,
  	     DML islemlerinde true deger dondurur.
