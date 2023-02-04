@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01f2433c-083d-40cc-824c-e3e9c5b952f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dersJDBC02_Query01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dersJDBC02_Query01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dersJDBC02_execute_executeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dersJDBC02_execute_executeUpdate.java" afterDir="false" />
-    </list>
+    <list default="true" id="01f2433c-083d-40cc-824c-e3e9c5b952f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +39,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/lenovo/IdeaProjects/git dersler full/practise/day06/c01CivataSomun.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.test">
     <configuration name="JDBC02EXECUTE_UPDATE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC02EXECUTE_UPDATE" />
